@@ -48,6 +48,14 @@ Software interno para una red de concesionarios automotrices, en producción y d
       <sub><code>Node.js</code> <code>Express</code> <code>scrypt</code> <code>Tailscale Funnel</code> <code>SQL Server</code></sub>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://github.com/tochtlani/data-platform"><img src="https://raw.githubusercontent.com/tochtlani/data-platform/main/assets/hero.png" alt="Data platform"></a>
+      <h3><a href="https://github.com/tochtlani/data-platform">Data platform</a></h3>
+      <p>Los pipelines que alimentan el almacén de datos todos los días: dos DMS con modelos distintos homologados en una sola capa de reporteo, bots headless que reemplazaron RPA de pantalla, extracción de CRM y Meta Graph API, y una API de solo lectura para el CRM.</p>
+      <sub><code>Python</code> <code>SQL Server</code> <code>Rocket UniVerse</code> <code>Business Central</code> <code>HubSpot API</code> <code>Meta Graph API</code> <code>Power BI</code></sub>
+    </td>
+  </tr>
 </table>
 
 ## Freelance
@@ -83,7 +91,7 @@ flowchart LR
     O --> A
     X --> A
     DW[(Almacén de datos<br/>SQL Server)]
-    ETL[ETL y robots diarios] --> DW
+    ETL[data-platform<br/>ETL y robots diarios] --> DW
     DW -. solo lectura .-> R
     DW -. solo lectura .-> M
     O -->|vista compatible| PBI[Power BI]

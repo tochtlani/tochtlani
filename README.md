@@ -48,6 +48,14 @@ In-house software for a network of car dealerships, in production and used daily
       <sub><code>Node.js</code> <code>Express</code> <code>scrypt</code> <code>Tailscale Funnel</code> <code>SQL Server</code></sub>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://github.com/tochtlani/data-platform"><img src="https://raw.githubusercontent.com/tochtlani/data-platform/main/assets/hero.png" alt="Data platform"></a>
+      <h3><a href="https://github.com/tochtlani/data-platform">Data platform</a></h3>
+      <p>The pipelines that feed the data warehouse every day: two dealer management systems with different data models unified into a single reporting layer, headless bots that replaced screen-driving RPA, CRM and Meta Graph API extraction, and a read-only API for the CRM.</p>
+      <sub><code>Python</code> <code>SQL Server</code> <code>Rocket UniVerse</code> <code>Business Central</code> <code>HubSpot API</code> <code>Meta Graph API</code> <code>Power BI</code></sub>
+    </td>
+  </tr>
 </table>
 
 ## Freelance
@@ -85,7 +93,7 @@ flowchart LR
     O --> A
     X --> A
     DW[(Data warehouse<br/>SQL Server)]
-    ETL[Daily ETL and bots] --> DW
+    ETL[data-platform<br/>daily ETL and bots] --> DW
     DW -. read-only .-> R
     DW -. read-only .-> M
     O -->|compatible view| PBI[Power BI]
