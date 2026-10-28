@@ -12,9 +12,12 @@ reconcile with Power BI.
 
 - I build **desktop apps (.NET/WPF)** and **web apps**, each with its own API, database and centralized identity.
 - I maintain the **ETL jobs and bots** that feed the data warehouse every day.
+- I also take **freelance** projects: desktop and web apps built end to end for outside clients.
 - I care that each business rule lives **in one place, under test**, and that no client can bypass it.
 
-## Featured projects
+## At work
+
+In-house software for a network of car dealerships, in production and used daily.
 
 <table>
   <tr>
@@ -33,23 +36,31 @@ reconcile with Power BI.
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/tochtlani/nomina-quincenal"><img src="https://raw.githubusercontent.com/tochtlani/nomina-quincenal/main/assets/hero.png" alt="Nómina Quincenal"></a>
-      <h3><a href="https://github.com/tochtlani/nomina-quincenal">Nómina Quincenal</a></h3>
-      <p>Biweekly payroll calculation and approval with segregation of duties: whoever submits a pay period cannot approve it. Loans, absences, vacation premium and cash forecasting; 550 tests.</p>
-      <sub><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>SQL Server</code></sub>
-    </td>
-    <td width="50%" valign="top">
       <a href="https://github.com/tochtlani/objetivos-apv"><img src="https://raw.githubusercontent.com/tochtlani/objetivos-apv/main/assets/hero.png" alt="Objetivos APV"></a>
       <h3><a href="https://github.com/tochtlani/objetivos-apv">Objetivos APV</a> · <a href="https://tochtlani.github.io/objetivos-apv/">demo ▶</a></h3>
       <p>Monthly sales targets per advisor, captured from a phone, with assignment history, month-end close and a view that plugs into the existing Power BI model unchanged.</p>
       <sub><code>JavaScript</code> <code>Node/Express</code> <code>Vercel</code> <code>SQL Server</code> <code>Power BI</code></sub>
     </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
+      <a href="https://github.com/tochtlani/auth-service"><img src="https://raw.githubusercontent.com/tochtlani/auth-service/main/assets/hero.png" alt="auth-service"></a>
       <h3><a href="https://github.com/tochtlani/auth-service">auth-service</a> · <a href="https://tochtlani.github.io/auth-service/">demo ▶</a></h3>
       <p>Central identity for the whole fleet of internal apps: one person, one password, one role per app. Per-person IP allowlists, an admin panel kept off the public internet, and a full audit log.</p>
       <sub><code>Node.js</code> <code>Express</code> <code>scrypt</code> <code>Tailscale Funnel</code> <code>SQL Server</code></sub>
+    </td>
+  </tr>
+</table>
+
+## Freelance
+
+Projects built on demand for outside clients.
+
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <a href="https://github.com/tochtlani/nomina-quincenal"><img src="https://raw.githubusercontent.com/tochtlani/nomina-quincenal/main/assets/hero.png" alt="Nómina Quincenal"></a>
+      <h3><a href="https://github.com/tochtlani/nomina-quincenal">Nómina Quincenal</a></h3>
+      <p>Biweekly payroll for a multi-company group, built end to end for a client: calculation rules derived cell by cell from their spreadsheet, segregation of duties (whoever submits a pay period cannot approve it), loans, vacation premium and cash forecasting. 550 tests, client and server installers.</p>
+      <sub><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>ASP.NET Core</code> <code>SQL Server</code> <code>xUnit</code></sub>
     </td>
   </tr>
 </table>
@@ -58,13 +69,13 @@ reconcile with Power BI.
 
 ## How they fit together
 
-These aren't standalone projects: they share identity, deployment patterns and a desktop
+The in-house projects aren't standalone: they share identity, deployment patterns and a desktop
 "chassis" that carries over from one app to the next.
 
 ```mermaid
 flowchart LR
     subgraph Desktop["Desktop chassis · WPF + API + Shared"]
-        R[Robin] --> M[Mithril SkyLine] --> N[Nómina Quincenal]
+        R[Robin] --> M[Mithril SkyLine]
     end
     subgraph Web["Web apps · Vercel BFF + internal backend"]
         O[Objetivos APV]
@@ -100,5 +111,5 @@ flowchart LR
 
 ---
 
-<sub>The projects above run in production inside the company. Their business code is private;
+<sub>Everything above runs in production, in-house or at a client. The business code is private;
 each repo contains documentation, screenshots and a demo with fictional data.</sub>

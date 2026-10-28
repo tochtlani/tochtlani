@@ -10,11 +10,14 @@ México. Mi trabajo empieza donde termina el dashboard: cuando un proceso vive e
 compartido, en correos o en la memoria de alguien, lo convierto en una app con permisos,
 auditoría y datos que cuadran con Power BI.
 
-- 🏗️ Construyo **apps de escritorio (.NET/WPF)** y **apps web** con su API, base de datos e identidad centralizada.
-- 🔄 Mantengo los **ETL y robots** que alimentan el almacén de datos todos los días.
-- 📐 Me importa que la regla de negocio viva **en un solo lugar, probada**, y que el cliente no pueda saltársela.
+- Construyo **apps de escritorio (.NET/WPF)** y **apps web** con su API, base de datos e identidad centralizada.
+- Mantengo los **ETL y robots** que alimentan el almacén de datos todos los días.
+- También hago proyectos **freelance**: apps de escritorio y web construidas de punta a punta para clientes externos.
+- Me importa que la regla de negocio viva **en un solo lugar, probada**, y que el cliente no pueda saltársela.
 
-## Proyectos destacados
+## En mi trabajo
+
+Software interno para una red de concesionarios automotrices, en producción y de uso diario.
 
 <table>
   <tr>
@@ -33,20 +36,13 @@ auditoría y datos que cuadran con Power BI.
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/tochtlani/nomina-quincenal"><img src="https://raw.githubusercontent.com/tochtlani/nomina-quincenal/main/assets/hero.png" alt="Nómina Quincenal"></a>
-      <h3><a href="https://github.com/tochtlani/nomina-quincenal">Nómina Quincenal</a></h3>
-      <p>Cálculo y autorización de nómina con segregación de funciones: quien envía una quincena no puede autorizarla. Préstamos, faltas, prima vacacional y pronóstico de efectivo; 550 pruebas.</p>
-      <sub><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>SQL Server</code></sub>
-    </td>
-    <td width="50%" valign="top">
       <a href="https://github.com/tochtlani/objetivos-apv"><img src="https://raw.githubusercontent.com/tochtlani/objetivos-apv/main/assets/hero.png" alt="Objetivos APV"></a>
       <h3><a href="https://github.com/tochtlani/objetivos-apv">Objetivos APV</a> · <a href="https://tochtlani.github.io/objetivos-apv/">demo ▶</a></h3>
       <p>Captura mensual de objetivos por asesor desde el celular, con historia de asignaciones, cierre de mes y una vista compatible con el modelo de Power BI existente.</p>
       <sub><code>JavaScript</code> <code>Node/Express</code> <code>Vercel</code> <code>SQL Server</code> <code>Power BI</code></sub>
     </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
+      <a href="https://github.com/tochtlani/auth-service"><img src="https://raw.githubusercontent.com/tochtlani/auth-service/main/assets/hero.png" alt="auth-service"></a>
       <h3><a href="https://github.com/tochtlani/auth-service">auth-service</a> · <a href="https://tochtlani.github.io/auth-service/">demo ▶</a></h3>
       <p>Identidad central para toda la flota de apps: una persona, una contraseña, un rol por app. Lista blanca de IP por persona, panel de administración aislado de internet y bitácora de auditoría.</p>
       <sub><code>Node.js</code> <code>Express</code> <code>scrypt</code> <code>Tailscale Funnel</code> <code>SQL Server</code></sub>
@@ -54,15 +50,30 @@ auditoría y datos que cuadran con Power BI.
   </tr>
 </table>
 
+## Freelance
+
+Proyectos construidos por encargo para clientes externos.
+
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <a href="https://github.com/tochtlani/nomina-quincenal"><img src="https://raw.githubusercontent.com/tochtlani/nomina-quincenal/main/assets/hero.png" alt="Nómina Quincenal"></a>
+      <h3><a href="https://github.com/tochtlani/nomina-quincenal">Nómina Quincenal</a></h3>
+      <p>Nómina quincenal de un grupo con varias empresas, construida de punta a punta para un cliente: reglas de cálculo derivadas celda por celda de su Excel, segregación de funciones (quien envía una quincena no puede autorizarla), préstamos, prima vacacional y pronóstico de efectivo. 550 pruebas e instaladores de cliente y servidor.</p>
+      <sub><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>ASP.NET Core</code> <code>SQL Server</code> <code>xUnit</code></sub>
+    </td>
+  </tr>
+</table>
+
 ## Cómo encajan
 
-No son proyectos sueltos: comparten identidad, patrones de despliegue y un "chasis" de
+Los proyectos internos no son sueltos: comparten identidad, patrones de despliegue y un "chasis" de
 escritorio que se reutiliza de una app a la siguiente.
 
 ```mermaid
 flowchart LR
     subgraph Escritorio["Chasis de escritorio · WPF + API + Shared"]
-        R[Robin] --> M[Mithril SkyLine] --> N[Nómina Quincenal]
+        R[Robin] --> M[Mithril SkyLine]
     end
     subgraph Web["Apps web · Vercel BFF + backend interno"]
         O[Objetivos APV]
@@ -98,5 +109,5 @@ flowchart LR
 
 ---
 
-<sub>Los proyectos de arriba están en producción dentro de la empresa. Su código de negocio es
+<sub>Todo lo de arriba está en producción, en la empresa o con el cliente. El código de negocio es
 privado; cada repo contiene documentación, capturas y una demo con datos ficticios.</sub>
