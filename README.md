@@ -10,9 +10,9 @@ where the dashboard ends: when a process lives in a shared spreadsheet, in email
 someone's head, I turn it into an app with permissions, an audit trail and numbers that
 reconcile with Power BI.
 
-- 🏗️ I build **desktop apps (.NET/WPF)** and **web apps**, each with its own API, database and centralized identity.
-- 🔄 I maintain the **ETL jobs and bots** that feed the data warehouse every day.
-- 📐 I care that each business rule lives **in one place, under test**, and that no client can bypass it.
+- I build **desktop apps (.NET/WPF)** and **web apps**, each with its own API, database and centralized identity.
+- I maintain the **ETL jobs and bots** that feed the data warehouse every day.
+- I care that each business rule lives **in one place, under test**, and that no client can bypass it.
 
 ## Featured projects
 
