@@ -13,14 +13,14 @@
   <rect width="1200" height="320" rx="14" fill="url(#g)"/>
   <rect width="1200" height="320" rx="14" fill="url(#fade)"/>
   <g class="s">
-    <text x="56" y="92" class="s" fill="#58a6ff" font-size="15" font-weight="600" letter-spacing="2" style="font-family:inherit">BI · DATA ENGINEERING · SOFTWARE INTERNO</text>
+    <text x="56" y="92" class="s" fill="#58a6ff" font-size="15" font-weight="600" letter-spacing="2" style="font-family:inherit">BI · DATA ENGINEERING · INTERNAL SOFTWARE</text>
     <text x="54" y="150" fill="#e6edf3" font-size="52" font-weight="800" letter-spacing="-1.5" style="font-family:ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">tochtlani</text>
-    <text x="56" y="196" fill="#8b949e" font-size="19" style="font-family:ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">Convierto Excels críticos y procesos a mano</text>
-    <text x="56" y="224" fill="#8b949e" font-size="19" style="font-family:ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">en software que la operación usa todos los días.</text>
+    <text x="56" y="196" fill="#8b949e" font-size="19" style="font-family:ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">I turn critical spreadsheets and manual processes</text>
+    <text x="56" y="224" fill="#8b949e" font-size="19" style="font-family:ui-sans-serif,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">into software the business runs on every day.</text>
     <rect x="56" y="252" width="56" height="4" rx="2" fill="#58a6ff"/>
   </g>
   <rect x="616" y="112" width="540" height="160" rx="10" fill="#161b22" stroke="#161b22"/>
   <circle cx="636" cy="128" r="0" fill="none"/>
-  <g class="in"><text x="640" y="150" fill="#8b949e" font-size="14">// el patrón detrás de casi todo lo que construyo</text><text x="640" y="176" fill="#e6edf3" font-size="14">navegador ─▶ BFF en Vercel ─▶ túnel con token</text><text x="640" y="202" fill="#e6edf3" font-size="14">          ─▶ API .NET / Express ─▶ SQL Server</text><text x="640" y="228" fill="#e6edf3" font-size="14">identidad ─▶ auth-service: 1 persona, 1 clave</text><text x="640" y="254" fill="#3fb950" font-size="14">✓ reglas en servidor  ✓ auditoría  ✓ pruebas</text></g>
-  <rect class="cur" x="1024" y="243" width="9" height="17" fill="#3fb950"/>
+  <g class="in"><text x="640" y="150" fill="#8b949e" font-size="14">// the pattern behind most of what I build</text><text x="640" y="176" fill="#e6edf3" font-size="14">browser   ─▶ BFF on Vercel ─▶ token-gated tunnel</text><text x="640" y="202" fill="#e6edf3" font-size="14">          ─▶ API .NET / Express ─▶ SQL Server</text><text x="640" y="228" fill="#e6edf3" font-size="14">identity  ─▶ auth-service: 1 person, 1 password</text><text x="640" y="254" fill="#3fb950" font-size="14">✓ server-side rules  ✓ audit trail  ✓ tests</text></g>
+  <rect class="cur" x="1012" y="243" width="9" height="17" fill="#3fb950"/>
 </svg>
