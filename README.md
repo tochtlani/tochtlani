@@ -17,35 +17,35 @@ auditoría y datos que cuadran con Power BI.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/RexGhidorah/robin-dms"><img src="https://raw.githubusercontent.com/RexGhidorah/robin-dms/main/assets/hero.png" alt="Robin"></a>
-      <h3><a href="https://github.com/RexGhidorah/robin-dms">Robin</a></h3>
+      <a href="https://github.com/tochtlani/robin-dms"><img src="https://raw.githubusercontent.com/tochtlani/robin-dms/main/assets/hero.png" alt="Robin"></a>
+      <h3><a href="https://github.com/tochtlani/robin-dms">Robin</a></h3>
       <p>DMS de escritorio para expedientes por VIN y prorrateo de vales. Cliente WPF, API con JWT, permisos por campo validados en el servidor y auditoría a nivel de campo.</p>
       <sub><code>C#</code> <code>.NET 10</code> <code>WPF/MVVM</code> <code>ASP.NET Core</code> <code>SQL Server</code></sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/RexGhidorah/mithril-skyline"><img src="https://raw.githubusercontent.com/RexGhidorah/mithril-skyline/main/assets/hero.png" alt="Mithril SkyLine"></a>
-      <h3><a href="https://github.com/RexGhidorah/mithril-skyline">Mithril SkyLine</a></h3>
+      <a href="https://github.com/tochtlani/mithril-skyline"><img src="https://raw.githubusercontent.com/tochtlani/mithril-skyline/main/assets/hero.png" alt="Mithril SkyLine"></a>
+      <h3><a href="https://github.com/tochtlani/mithril-skyline">Mithril SkyLine</a></h3>
       <p>Control diario del flujo de dinero por agencia, con bloqueo por día calendario y desbloqueo administrado. Las reglas de dominio son código puro compartido entre cliente y servidor, cubierto por 262 pruebas.</p>
       <sub><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>xUnit</code> <code>Inno Setup</code></sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/RexGhidorah/nomina-quincenal"><img src="https://raw.githubusercontent.com/RexGhidorah/nomina-quincenal/main/assets/hero.png" alt="Nómina Quincenal"></a>
-      <h3><a href="https://github.com/RexGhidorah/nomina-quincenal">Nómina Quincenal</a></h3>
+      <a href="https://github.com/tochtlani/nomina-quincenal"><img src="https://raw.githubusercontent.com/tochtlani/nomina-quincenal/main/assets/hero.png" alt="Nómina Quincenal"></a>
+      <h3><a href="https://github.com/tochtlani/nomina-quincenal">Nómina Quincenal</a></h3>
       <p>Cálculo y autorización de nómina con segregación de funciones: quien envía una quincena no puede autorizarla. Préstamos, faltas, prima vacacional y pronóstico de efectivo; 550 pruebas.</p>
       <sub><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>SQL Server</code></sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/RexGhidorah/objetivos-apv"><img src="https://raw.githubusercontent.com/RexGhidorah/objetivos-apv/main/assets/hero.png" alt="Objetivos APV"></a>
-      <h3><a href="https://github.com/RexGhidorah/objetivos-apv">Objetivos APV</a> · <a href="https://rexghidorah.github.io/objetivos-apv/">demo ▶</a></h3>
+      <a href="https://github.com/tochtlani/objetivos-apv"><img src="https://raw.githubusercontent.com/tochtlani/objetivos-apv/main/assets/hero.png" alt="Objetivos APV"></a>
+      <h3><a href="https://github.com/tochtlani/objetivos-apv">Objetivos APV</a> · <a href="https://tochtlani.github.io/objetivos-apv/">demo ▶</a></h3>
       <p>Captura mensual de objetivos por asesor desde el celular, con historia de asignaciones, cierre de mes y una vista compatible con el modelo de Power BI existente.</p>
       <sub><code>JavaScript</code> <code>Node/Express</code> <code>Vercel</code> <code>SQL Server</code> <code>Power BI</code></sub>
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3><a href="https://github.com/RexGhidorah/auth-service">auth-service</a> · <a href="https://rexghidorah.github.io/auth-service/">demo ▶</a></h3>
+      <h3><a href="https://github.com/tochtlani/auth-service">auth-service</a> · <a href="https://tochtlani.github.io/auth-service/">demo ▶</a></h3>
       <p>Identidad central para toda la flota de apps: una persona, una contraseña, un rol por app. Lista blanca de IP por persona, panel de administración aislado de internet y bitácora de auditoría.</p>
       <sub><code>Node.js</code> <code>Express</code> <code>scrypt</code> <code>Tailscale Funnel</code> <code>SQL Server</code></sub>
     </td>
