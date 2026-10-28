@@ -8,9 +8,9 @@ México. Mi trabajo empieza donde termina el dashboard: cuando un proceso vive e
 compartido, en correos o en la memoria de alguien, lo convierto en una app con permisos,
 auditoría y datos que cuadran con Power BI.
 
-- 🏗️ Construyo **apps de escritorio (.NET/WPF)** y **apps web** con su API, base de datos e identidad centralizada.
-- 🔄 Mantengo los **ETL y robots** que alimentan el almacén de datos todos los días.
-- 📐 Me importa que la regla de negocio viva **en un solo lugar, probada**, y que el cliente no pueda saltársela.
+- Construyo **apps de escritorio (.NET/WPF)** y **apps web** con su API, base de datos e identidad centralizada.
+- Mantengo los **ETL y robots** que alimentan el almacén de datos todos los días.
+- Me importa que la regla de negocio viva **en un solo lugar, probada**, y que el cliente no pueda saltársela.
 
 ## Proyectos destacados
 
