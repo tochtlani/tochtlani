@@ -1,31 +1,33 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="tochtlani: BI, data engineering y software interno" width="100%">
+  <img src="assets/banner-light.svg" alt="tochtlani: BI, data engineering and internal software" width="100%">
 </picture>
 
-Trabajo en el área de **Business Intelligence** de una red de concesionarios automotrices en
-México. Mi trabajo empieza donde termina el dashboard: cuando un proceso vive en un Excel
-compartido, en correos o en la memoria de alguien, lo convierto en una app con permisos,
-auditoría y datos que cuadran con Power BI.
+<p align="right"><b>English</b> · <a href="README.es.md">Español</a></p>
 
-- Construyo **apps de escritorio (.NET/WPF)** y **apps web** con su API, base de datos e identidad centralizada.
-- Mantengo los **ETL y robots** que alimentan el almacén de datos todos los días.
-- Me importa que la regla de negocio viva **en un solo lugar, probada**, y que el cliente no pueda saltársela.
+I work in **Business Intelligence** for a network of car dealerships in Mexico. My work starts
+where the dashboard ends: when a process lives in a shared spreadsheet, in email threads or in
+someone's head, I turn it into an app with permissions, an audit trail and numbers that
+reconcile with Power BI.
 
-## Proyectos destacados
+- 🏗️ I build **desktop apps (.NET/WPF)** and **web apps**, each with its own API, database and centralized identity.
+- 🔄 I maintain the **ETL jobs and bots** that feed the data warehouse every day.
+- 📐 I care that each business rule lives **in one place, under test**, and that no client can bypass it.
+
+## Featured projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/tochtlani/robin-dms"><img src="https://raw.githubusercontent.com/tochtlani/robin-dms/main/assets/hero.png" alt="Robin"></a>
       <h3><a href="https://github.com/tochtlani/robin-dms">Robin</a></h3>
-      <p>DMS de escritorio para expedientes por VIN y prorrateo de vales. Cliente WPF, API con JWT, permisos por campo validados en el servidor y auditoría a nivel de campo.</p>
+      <p>Desktop DMS for vehicle files by VIN and voucher allocation. WPF client, JWT-secured API, per-field permissions enforced on the server and field-level audit history.</p>
       <sub><code>C#</code> <code>.NET 10</code> <code>WPF/MVVM</code> <code>ASP.NET Core</code> <code>SQL Server</code></sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/tochtlani/mithril-skyline"><img src="https://raw.githubusercontent.com/tochtlani/mithril-skyline/main/assets/hero.png" alt="Mithril SkyLine"></a>
       <h3><a href="https://github.com/tochtlani/mithril-skyline">Mithril SkyLine</a></h3>
-      <p>Control diario del flujo de dinero por agencia, con bloqueo por día calendario y desbloqueo administrado. Las reglas de dominio son código puro compartido entre cliente y servidor, cubierto por 262 pruebas.</p>
+      <p>Daily cash-flow tracking per dealership, with per-day locking and admin-controlled reopening. Domain rules are pure code shared by client and server, covered by 262 tests.</p>
       <sub><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>xUnit</code> <code>Inno Setup</code></sub>
     </td>
   </tr>
@@ -33,68 +35,70 @@ auditoría y datos que cuadran con Power BI.
     <td width="50%" valign="top">
       <a href="https://github.com/tochtlani/nomina-quincenal"><img src="https://raw.githubusercontent.com/tochtlani/nomina-quincenal/main/assets/hero.png" alt="Nómina Quincenal"></a>
       <h3><a href="https://github.com/tochtlani/nomina-quincenal">Nómina Quincenal</a></h3>
-      <p>Cálculo y autorización de nómina con segregación de funciones: quien envía una quincena no puede autorizarla. Préstamos, faltas, prima vacacional y pronóstico de efectivo; 550 pruebas.</p>
+      <p>Biweekly payroll calculation and approval with segregation of duties: whoever submits a pay period cannot approve it. Loans, absences, vacation premium and cash forecasting; 550 tests.</p>
       <sub><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>SQL Server</code></sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/tochtlani/objetivos-apv"><img src="https://raw.githubusercontent.com/tochtlani/objetivos-apv/main/assets/hero.png" alt="Objetivos APV"></a>
       <h3><a href="https://github.com/tochtlani/objetivos-apv">Objetivos APV</a> · <a href="https://tochtlani.github.io/objetivos-apv/">demo ▶</a></h3>
-      <p>Captura mensual de objetivos por asesor desde el celular, con historia de asignaciones, cierre de mes y una vista compatible con el modelo de Power BI existente.</p>
+      <p>Monthly sales targets per advisor, captured from a phone, with assignment history, month-end close and a view that plugs into the existing Power BI model unchanged.</p>
       <sub><code>JavaScript</code> <code>Node/Express</code> <code>Vercel</code> <code>SQL Server</code> <code>Power BI</code></sub>
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
       <h3><a href="https://github.com/tochtlani/auth-service">auth-service</a> · <a href="https://tochtlani.github.io/auth-service/">demo ▶</a></h3>
-      <p>Identidad central para toda la flota de apps: una persona, una contraseña, un rol por app. Lista blanca de IP por persona, panel de administración aislado de internet y bitácora de auditoría.</p>
+      <p>Central identity for the whole fleet of internal apps: one person, one password, one role per app. Per-person IP allowlists, an admin panel kept off the public internet, and a full audit log.</p>
       <sub><code>Node.js</code> <code>Express</code> <code>scrypt</code> <code>Tailscale Funnel</code> <code>SQL Server</code></sub>
     </td>
   </tr>
 </table>
 
-## Cómo encajan
+<sub>Project docs are written in Spanish; the demos speak for themselves.</sub>
 
-No son proyectos sueltos: comparten identidad, patrones de despliegue y un "chasis" de
-escritorio que se reutiliza de una app a la siguiente.
+## How they fit together
+
+These aren't standalone projects: they share identity, deployment patterns and a desktop
+"chassis" that carries over from one app to the next.
 
 ```mermaid
 flowchart LR
-    subgraph Escritorio["Chasis de escritorio · WPF + API + Shared"]
+    subgraph Desktop["Desktop chassis · WPF + API + Shared"]
         R[Robin] --> M[Mithril SkyLine] --> N[Nómina Quincenal]
     end
-    subgraph Web["Apps web · Vercel BFF + backend interno"]
+    subgraph Web["Web apps · Vercel BFF + internal backend"]
         O[Objetivos APV]
-        X[Otras apps internas]
+        X[Other internal apps]
     end
-    A{{auth-service<br/>identidad central}}
+    A{{auth-service<br/>central identity}}
     O --> A
     X --> A
-    DW[(Almacén de datos<br/>SQL Server)]
-    ETL[ETL y robots diarios] --> DW
-    DW -. solo lectura .-> R
-    DW -. solo lectura .-> M
-    O -->|vista compatible| PBI[Power BI]
+    DW[(Data warehouse<br/>SQL Server)]
+    ETL[Daily ETL and bots] --> DW
+    DW -. read-only .-> R
+    DW -. read-only .-> M
+    O -->|compatible view| PBI[Power BI]
     DW --> PBI
 ```
 
-## Con qué trabajo
+## Tools I use
 
 <p>
   <img src="https://skillicons.dev/icons?i=cs,dotnet,js,ts,react,nodejs,express,py,vite,tailwind,vercel,powershell,git&perline=13" alt="Stack">
 </p>
 
-**Datos:** SQL Server (T-SQL, vistas, procedimientos, migraciones idempotentes), Power BI (DAX, modelos semánticos `.pbip`), MySQL, ETL en Python.
-**Infra:** Tailscale (Funnel / serve), Windows Server, Proxmox, servicios y tareas programadas de Windows.
+**Data:** SQL Server (T-SQL, views, stored procedures, idempotent migrations), Power BI (DAX, `.pbip` semantic models), MySQL, Python ETL.
+**Infra:** Tailscale (Funnel / serve), Windows Server, Proxmox, Windows services and scheduled tasks.
 
-## Cómo trabajo
+## How I work
 
-- **El servidor es la única autoridad.** Permisos, cálculos y bloqueos se validan en la API; el cliente solo los refleja.
-- **Las reglas que importan son código puro y tienen pruebas.** Sin base de datos ni UI de por medio.
-- **Las credenciales nunca llegan al cliente.** Ni la cadena de conexión ni el password de SQL.
-- **Documento el porqué, no solo el qué.** Cada repo tiene su sección de decisiones, incluidas las que se descartaron.
-- **Migro sin romper lo que ya existe.** Si Power BI consume una tabla, la nueva fuente respeta sus columnas.
+- **The server is the only authority.** Permissions, calculations and locks are enforced by the API; the client just reflects them.
+- **The rules that matter are pure code with tests.** No database or UI in the way.
+- **Credentials never reach the client.** Not the connection string, not the SQL password.
+- **I document the why, not just the what.** Every repo has a design-decisions section, including the paths I ruled out.
+- **I migrate without breaking what exists.** If Power BI reads a table, the new source keeps its columns.
 
 ---
 
-<sub>Los proyectos de arriba están en producción dentro de la empresa. Su código de negocio es
-privado; cada repo contiene documentación, capturas y una demo con datos ficticios.</sub>
+<sub>The projects above run in production inside the company. Their business code is private;
+each repo contains documentation, screenshots and a demo with fictional data.</sub>
