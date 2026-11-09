@@ -58,23 +58,6 @@ In-house software for a network of car dealerships, in production and used daily
   </tr>
 </table>
 
-## Freelance
-
-Projects built on demand for outside clients.
-
-<table>
-  <tr>
-    <td width="100%" valign="top">
-      <a href="https://github.com/tochtlani/nomina-quincenal"><img src="https://raw.githubusercontent.com/tochtlani/nomina-quincenal/main/assets/hero.png" alt="Nómina Quincenal"></a>
-      <h3><a href="https://github.com/tochtlani/nomina-quincenal">Nómina Quincenal</a></h3>
-      <p>Biweekly payroll for a multi-company group, built end to end for a client: calculation rules derived cell by cell from their spreadsheet, segregation of duties (whoever submits a pay period cannot approve it), loans, vacation premium and cash forecasting. 550 tests, client and server installers.</p>
-      <sub><code>C#</code> <code>.NET 10</code> <code>WPF</code> <code>ASP.NET Core</code> <code>SQL Server</code> <code>xUnit</code></sub>
-    </td>
-  </tr>
-</table>
-
-<sub>Project docs are written in Spanish; the demos speak for themselves.</sub>
-
 ## How they fit together
 
 The in-house projects aren't standalone: they share identity, deployment patterns and a desktop
