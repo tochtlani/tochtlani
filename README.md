@@ -7,7 +7,10 @@
 
 <p>
   <img src="https://img.shields.io/badge/Industry-Automotive-C3002F?style=flat-square&labelColor=0d1117" alt="Industry: automotive">
-  <img src="https://img.shields.io/badge/Brands-Nissan_·_BMW_·_Infiniti_·_MG-444?style=flat-square&labelColor=0d1117" alt="Brands: Nissan, BMW, Infiniti, MG">
+  <img src="https://img.shields.io/badge/Nissan-C3002F?style=flat-square&logo=nissan&logoColor=white" alt="Nissan">
+  <img src="https://img.shields.io/badge/BMW-0066B1?style=flat-square&logo=bmw&logoColor=white" alt="BMW">
+  <img src="https://img.shields.io/badge/Infiniti-1A1A1A?style=flat-square&logo=infiniti&logoColor=white" alt="Infiniti">
+  <img src="https://img.shields.io/badge/MG-A6192E?style=flat-square&logo=mg&logoColor=white" alt="MG">
   <img src="https://img.shields.io/badge/Status-In_production-2ea043?style=flat-square&labelColor=0d1117" alt="Status: in production">
   <img src="https://img.shields.io/badge/In--house-5_projects-1f6feb?style=flat-square&labelColor=0d1117" alt="In-house: 5 projects">
   <img src="https://img.shields.io/badge/Freelance-1_project-8957e5?style=flat-square&labelColor=0d1117" alt="Freelance: 1 project">
