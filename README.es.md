@@ -5,6 +5,14 @@
 
 <p align="right"><a href="README.md">English</a> · <b>Español</b></p>
 
+<p>
+  <img src="https://img.shields.io/badge/Industria-Automotriz-C3002F?style=flat-square&labelColor=0d1117" alt="Industria: automotriz">
+  <img src="https://img.shields.io/badge/Marcas-Nissan_·_BMW_·_Infiniti_·_MG-444?style=flat-square&labelColor=0d1117" alt="Marcas: Nissan, BMW, Infiniti, MG">
+  <img src="https://img.shields.io/badge/Estado-En_producción-2ea043?style=flat-square&labelColor=0d1117" alt="Estado: en producción">
+  <img src="https://img.shields.io/badge/In--house-5_proyectos-1f6feb?style=flat-square&labelColor=0d1117" alt="In-house: 5 proyectos">
+  <img src="https://img.shields.io/badge/Freelance-1_proyecto-8957e5?style=flat-square&labelColor=0d1117" alt="Freelance: 1 proyecto">
+</p>
+
 Trabajo en el área de **Business Intelligence** de una red de concesionarios automotrices en
 México. Mi trabajo empieza donde termina el dashboard: cuando un proceso vive en un Excel
 compartido, en correos o en la memoria de alguien, lo convierto en una app con permisos,
